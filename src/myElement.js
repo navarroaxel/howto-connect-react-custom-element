@@ -13,7 +13,7 @@ class MyElement extends HTMLElement {
     super();
 
     this.shadow = this.attachShadow({mode: 'open'});
-    // write element functionality in here
+    // Write element functionality in here
     this.renderElement();
   }
 
